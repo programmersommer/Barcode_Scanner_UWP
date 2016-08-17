@@ -28,7 +28,7 @@ And you will be able with simple code open popup and get scanned code:
             await barcodecontrol.StartScan(BarcodeFound, OnError);
         }
 
-Don't forget to handle suspending event and close popup and clean resources:
+Don't forget to handle suspending event, close popup and clean resources:
         
        private async void App_Suspending(object sender, Windows.ApplicationModel.SuspendingEventArgs e)
         {
