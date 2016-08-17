@@ -1,5 +1,8 @@
 # Barcode and QRCode Scanner for UWP C#/XAML application
 
+<img src="screenshot1.png">
+<img src="screenshot2.png">
+
 Add BarcodeScannerControl.xaml and BarcodeScannerControl.xaml.cs to your project
 and popup to XAML page
 
