@@ -1,4 +1,4 @@
-# Barcode and QRCode Scanner for UWP C#/XAML application
+# Barcode and QR Code Scanner for UWP C#/XAML application
 
 <img src="Barcode_Scanner_UWP/screenshot1.png" width="350">
 <img src="Barcode_Scanner_UWP/screenshot2.png" width="350">
