@@ -199,7 +199,6 @@ namespace Barcode_Scanner_UWP
                     _cleanedUp = false;
                     _processScan = true;
 
-                    mediaCapture.FocusChanged += mediaCaptureManager_FocusChanged;
                     VideoCaptureElement.Source = mediaCapture;
                     VideoCaptureElement.Stretch = Stretch.UniformToFill;
                     await mediaCapture.StartPreviewAsync();
