@@ -307,7 +307,7 @@ namespace Barcode_Scanner_UWP
         }
 
 
-        private void OnBarCodeFoundAsync(string barcode)
+        private void BarCodeFound(string barcode)
         {
             timerFocus.Stop();
             _processScan = false;
@@ -334,7 +334,7 @@ namespace Barcode_Scanner_UWP
                     var result = ScanBitmap(pixelsArray, (int)_width, (int)_height);
                     if (result != null)
                     {
-                        OnBarCodeFoundAsync(result.Text);
+                        BarCodeFound(result.Text);
                     }
                 }
             }
